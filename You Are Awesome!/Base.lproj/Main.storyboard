@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Are Awesome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzZ-O0-yQC">
-                                <rect key="frame" x="16" y="47" width="358" height="116"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question Mark!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzZ-O0-yQC">
+                                <rect key="frame" x="16" y="364" width="358" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
-                                <color key="textColor" red="0.93631488080000003" green="0.44751381870000001" blue="0.1171675548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -36,6 +36,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
